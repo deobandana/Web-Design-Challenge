@@ -1,0 +1,142 @@
+body{
+    background-color:#ccc2d8;
+}
+
+.navbar{
+    max-height:65px;
+    
+}
+
+.navigation .navbar-brand{
+    font-size: 30px;
+    color:red;
+    margin-left:10px;
+    padding: inherit;
+    font-weight:bold;
+    background-color: #a49dac;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar{
+    background-color: #b8b7bb;
+    font-size: 30px;
+}
+
+.active, .dropdown-menu .dropdown-item:active a:hover{
+    background-color:  #a832a2!important;
+}
+
+.dropdown-item{
+    font-weight:bold;
+    color:#fa0404!important;
+    
+}
+
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
+    background-color: #32a855!important;
+}
+
+a{
+    color:#6d8092;
+    font-size:15px;
+}
+
+.nav-link:hover{
+    background-color:#67e215!important;
+}
+
+
+.navbar-brand:hover{
+    color:rgb(248, 0, 0)!important;
+}
+
+img{
+    width:100%!important;
+    height:100%!important;
+}
+
+.active, .panel:hover{
+    border-color:#ff0404;
+    border-style:solid;
+}
+
+.visualizations{
+    width:70%!important;
+    height:70%!important;
+}
+
+.title{
+    color:#ff0707;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:bolder;
+    font-size: 31px;
+    padding-top: 2px;
+}
+
+p{
+    color:#8a09d4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.box{
+    margin-top:20px;
+    margin-bottom:52px;
+    padding:10px 20 px 15px;
+    color:black;
+    background-color: white;
+}
+
+.table{
+    font-size: 16px;
+    border-top-color:rgb(163, 7, 202)!important;
+}
+
+footer{
+    background-color: #600ac2; 
+    border-top-style: solid; 
+    border-top-width: 1px; 
+    border-top-color: #ee0d0d;
+    color: rgb(248, 248, 248); 
+    min-height: 25px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px; 
+    text-align: center; 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 15px; 
+    }
+
+@media(max-width: 950px){
+    .navbar-expand-lg{
+    background-color: #0d46e4 !important;
+    }
+    
+    .navbar{
+      max-height: none; 
+      padding: inherit;
+    }
+
+    .navbar div{
+      margin: inherit; 
+      background-color: rgb(231, 123, 123);  
+    }
+
+    .navbar-brand{
+      padding: 10px !important; 
+    }
+    
+    button{
+      margin-right: 30px; 
+    }
+
+    button:focus {
+    
+      outline: 1px dotted;
+      outline: 5px auto -webkit-focusring-color;  
+    }
+}
